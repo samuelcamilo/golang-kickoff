@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Criação e atribuição de valores para a variável...
-	firstName := "Camilo"
+	var firstName string = "Camilo"
 	fmt.Println(firstName)
 
 	// Criação e atribuição de endereço de memória para ptr...
