@@ -14,7 +14,7 @@ type Transaction struct {
 
 // retorno nomeado aumenta a performance, pois n será necessário advinhar o que será retornado...
 func seed() (arr []Transaction) {
-	return []Transaction {
+	arr = []Transaction {
 		{id: 1, paymentDate: time.Now().UTC().Format("2006-01-02"), paymentMethod: "AA", paymentValue: 2400.00},
 		{id: 2, paymentDate: time.Now().UTC().Format("2006-01-02"), paymentMethod: "AB", paymentValue: 100.00},
 		{id: 3, paymentDate: time.Now().UTC().Format("2006-01-02"), paymentMethod: "AA", paymentValue: 2500.00},
@@ -24,6 +24,8 @@ func seed() (arr []Transaction) {
 		{id: 7, paymentDate: time.Now().UTC().Format("2006-01-02"), paymentMethod: "AB", paymentValue: 500.00},
 		{id: 8, paymentDate: time.Now().UTC().Format("2006-01-02"), paymentMethod: "AB", paymentValue: 1500.00},
 	}
+
+	return
 }
 
 var transactions []Transaction = seed()
