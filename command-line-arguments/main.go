@@ -38,7 +38,7 @@ func getAllArgs() string {
 
 func main() {
 	fmt.Println("Arguments Count: ", getCountArgs())
-	fmt.Println("1.1 - Arguments String: ", getAllWithLoopArgs())	
-	fmt.Println("1.2 - Arguments String: ", getAllWithRangeArgs())	
-	fmt.Println("1.3 - Arguments String: ", getAllArgs())	
+	fmt.Println("1.1 - Arguments String: ", getAllWithLoopArgs())
+	fmt.Println("1.2 - Arguments String: ", getAllWithRangeArgs())
+	fmt.Println("1.3 - Arguments String: ", getAllArgs())
 }
