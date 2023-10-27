@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ func Hello(s string) string {
 		return messagePrefix + "World!"
 	}
 
-	return "Hello, " + s + "!" 
+	return "Hello, " + s + "!"
 }
 
 func main() {
